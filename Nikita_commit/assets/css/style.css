@@ -1,0 +1,940 @@
+h2{
+    font-family: 'URW Geometric';
+    font-style: normal;
+    font-size: 40px;
+    line-height: 60px;
+    color: #000099;
+}
+.logo{
+    margin-top: 40px;
+}
+.nav-menu{
+    float: right;
+}
+.nav-menu ul{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	height: 100%;
+	display: flex;
+	align-items: stretch;
+	transition: 0.5s;
+}
+.navlinks li{
+    margin-left: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: end;
+}
+.navlinks a{
+	transition: 0.3s;
+    font-family: 'URW Geometric';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    text-decoration: none;
+    color: #333399;
+}
+.navlinks a:hover{
+	color: #00CC99;
+}
+
+.top{
+    background: url(../images/hero.png) no-repeat;
+}
+.top-block{
+    max-width: 630px;
+    margin-top: 110px;
+    margin-bottom: 235px;
+}
+.top-block h2{
+    font-family: 'URW Geometric';
+    font-style: normal;
+    font-size: 52px;
+    line-height: 60px;
+    color: #000099;
+    font-weight: bold;
+}
+.top-block h2 span{
+    color: #00CC99;
+}
+.top-block p{
+    margin-top: 20px;
+    font-family: 'URW Geometric';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    color: #333399;
+}
+.top-block button{
+    margin-top: 40px;
+    width: 364px;
+    height: 62px;
+    background: #00CC99;
+    border-radius: 13px;
+    border: none;
+    font-family: 'URW Geometric';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+.top-block button:hover{
+    background: #333399;
+
+}
+.profile{
+    margin-bottom: 120px;
+}
+.profile h2{
+    text-align: center;
+    margin: 180px 0px 120px 0px;
+    font-weight: bold;
+}
+.profile h2 span{
+    color: #00CC99;
+}
+.profile p{
+    margin-top: 28px;
+    font-family: 'URW Geometric';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #333399;
+    max-width: 228px;
+}
+.business{
+    background: url(../images/business.png) no-repeat;
+}
+.business h2{
+    margin-top: 415px;
+    margin-bottom: 172px;
+    font-weight: bold;
+}
+.cards h2:after {
+    content: '';
+    background-color: #333399;;
+    height: 1px;
+    display: block;
+    width: 200px;
+    margin:0 auto;
+    margin-top:30px;
+  }
+.business h2 span{
+    color: #00CC99;
+}
+.steps h2{
+    margin-top: 160px;
+    margin-bottom: 145px;
+    text-align: center;
+    font-weight: bold;
+}
+.steps-item{
+    max-width: 760px;
+    display: block;
+    margin: 0 auto;
+    padding-left:45px;
+    margin-bottom: 80px;
+}
+.steps-item img{
+    position: absolute;
+    left: 100px;
+    top: 27%;
+}
+.steps-item h3{
+    font-family: 'URW Geometric';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000099;
+    font-weight: bold;
+}
+.steps-item p{
+    font-family: 'URW Geometric';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #333399;
+}
+
+.steps button{
+    width: 285px;
+    height: 62px;   
+    background: #00CC99;
+    border-radius: 13px;
+    border: none;
+    font-family: 'URW Geometric';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    transition: 0.3s;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 175px;
+}
+.steps button:hover{
+    background: #333399;
+}
+.cards{
+    background-color: #F5F9FF;
+    text-align: center;
+    padding-top: 160px;
+}
+.cards h2{
+    margin-bottom: 56px;
+    font-weight: bold;
+}
+.cards p{
+    font-family: 'URW Geometric';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #333399;
+    max-width: 565px;
+    display: block;
+    margin: 0 auto;
+}
+.cards-item{
+    margin-bottom: 160px;
+    margin-top: 160px;
+    max-width: 350px;
+    padding: 39px;
+    background: #FFFFFF;
+    text-align: left;
+    border: 1px solid rgba(51, 51, 153, 0.1);
+    box-sizing: border-box;
+    border-radius: 15px;
+    transition: 0.4s;
+}
+.cards-item:hover{
+    border: 1px solid #00CC99;  
+}
+.cards-item img{
+    float: left;
+    margin-right: 90px;
+    margin-bottom: 20px;
+}
+.cards-item h2{
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 10px;
+}
+.cards-item p{
+    font-family: 'URW Geometric';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+}
+.marketing{
+    text-align: center;
+    padding-top: 160px;
+    margin-bottom: 160px;
+}
+.marketing-item{
+    margin-top: 120px;
+    text-align: left;
+}
+.marketing h2{
+margin-bottom: 56px;
+font-weight: bold;
+}
+.marketing h2:after {
+    content: '';
+    background-color: #333399;;
+    height: 1px;
+    display: block;
+    width: 200px;
+    margin:0 auto;
+    margin-top:30px;
+  }
+.marketing p{
+    font-family: 'URW Geometric';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #333399;
+    max-width: 440px;
+    display: block;
+    margin: 0 auto;
+}
+.marketing-item h3{
+    font-family: 'URW Geometric';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000099;
+    margin-top: 110px;
+}
+.marketing-item p{
+    font-family: 'URW Geometric';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #333399;
+    max-width: 430px;
+    margin-left: 0px;
+}
+.marketing-item img{
+    width: 100%;
+}
+.package{
+    text-align: center;
+    margin-bottom: 160px;
+}
+.package h2{
+    margin-bottom: 56px;
+    font-weight: bold;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.package h2:after {
+    content: '';
+    background-color: #333399;;
+    height: 1px;
+    display: block;
+    width: 200px;
+    margin:0 auto;
+    margin-top:30px;
+  }
+.package p{
+    font-family: 'URW Geometric';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #333399;
+    max-width: 562px;
+    display: block;
+    margin: 0 auto;
+}
+.package-item {
+    display: block;
+    margin: 0 auto;
+    margin-top: 120px;
+    max-width: 430px;
+    padding: 60px;
+    border: 1px solid rgba(51, 51, 153, 0.1);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.package-item h3 {
+    font-family: 'URW Geometric';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    color: #000099;
+}
+.package-item p span{
+    font-family: 'URW Geometric';
+    font-style: bold;
+    font-weight: 900;
+    font-size: 67px;
+    line-height: 60px;
+    color: #00CC99;
+}
+.package-item p{
+    font-family: 'URW Geometric';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #333399;
+    margin-top: 30px;
+}
+.package-item ul{
+    padding: 0;
+    margin-top: 50px;
+}
+.package-item ul li{
+    text-align: left;
+    font-family: 'URW Geometric';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #333399;
+    list-style-type: none;
+    margin-top: 10px;
+}
+.package-item ul li img{
+    margin-right: 10px;
+}
+.package-item button{
+    margin-top: 50px;
+    width: 153px;
+    height: 62px;
+    background: #00CC99;
+    border-radius: 13px;
+    font-family: 'URW Geometric';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    border: none;
+    transition: 0.3s;
+}
+.package-item button:hover{
+    background: #333399;
+}
+
+.feedback{
+    text-align: center;
+    padding-bottom: 160px;
+}
+.feedback h2{
+    font-family: 'URW Geometric';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    color: #000099;
+    max-width: 850px;
+    display: block;
+    margin: 0 auto;
+}
+.feed-img{
+    padding-top: 100px;
+    margin-top: 120px;
+}
+.feed-img img{
+    width: 100%;
+}
+.form{
+    margin-top: 120px;
+    text-align: left;
+}
+.form input {
+    width: 440px;
+    height: 67px;
+    background: #FFFFFF;
+    border: 1px solid rgba(51, 51, 153, 0.2);
+    box-sizing: border-box;
+    border-radius: 12px;
+    margin-bottom: 40px;
+}
+::-webkit-input-placeholder {color: rgba(51, 51, 153, 0.2);}
+::-moz-placeholder          {color: rgba(51, 51, 153, 0.2);}/* Firefox 19+ */
+:-moz-placeholder           {color: rgba(51, 51, 153, 0.2);}/* Firefox 18- */
+:-ms-input-placeholder      {color: rgba(51, 51, 153, 0.2);}
+.form label{
+    font-family: 'URW Geometric';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #333399;
+    margin-bottom: 15px;
+}
+.form button{
+    margin-top: 20px;
+    width: 139px;
+    height: 62px;
+    background: #00CC99;
+    border-radius: 13px;
+    font-family: 'URW Geometric';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    border: none;
+    transition: 0.3s;
+}
+.form button:hover{
+    background: #333399;
+}
+.form p{
+    font-family: 'URW Geometric';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #333399;
+    margin-top: 15px;
+}
+.form p span{
+   color: #00CC99; 
+}
+footer{
+    background: #F5F9FF;
+    padding-top: 160px;
+    padding-bottom: 60px;
+}
+footer .logo{
+    margin-top: 0px;
+}
+footer .social a img{
+    margin-right: 20px;
+}
+footer .social a img:hover{
+    transform: scale(1.06);
+}
+.link a{
+    font-family: 'URW Geometric';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #333399;
+    display: block;
+    margin-bottom: 15px;
+}
+.link-footer{
+    margin-top: 120px;
+}
+.link-footer a{
+    font-family: 'URW Geometric';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #333399;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+
+
+@media (max-width: 1300px){
+    .top{
+        background: none;
+        text-align: center;
+    }
+    .top-block{
+        max-width: 100%;
+    }
+    .top-block{
+        margin-bottom: 0px;
+    }
+    .form input{
+        width: 100%;
+    }
+    .business{
+        display: none;
+    }
+    .steps h2{
+        margin-bottom: 60px;
+    }
+    .steps {
+        text-align: center;
+    }
+    .profile{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .link-footer{
+        text-align: center;
+    }
+    .steps-item{
+        padding-left: 0px;
+    }
+    .steps-item img{
+        display: none;
+    }
+}
+@media (max-width: 997px){
+    .navlinks li{
+        margin-left: 50px;
+    }
+    .cards-item{
+        display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    }
+    .marketing-item h3{
+        margin-top: 60px;
+    }
+    .marketing-item{
+        margin-top: 60px;
+    }
+    .package{
+        margin-top: 0px;
+        margin-bottom:0px;
+    }
+    .feed-img{
+        margin-top: 0px;
+    }
+    footer .logo{
+        margin-bottom: 60px;
+    }
+}
+
+
+@media (max-width: 775px) {
+.logo{
+    text-align: center;
+}
+.nav-menu ul{
+    margin: 0;
+    margin-left: 0px;
+    padding-left: 0px;
+    display: block;
+}
+.nav-menu{
+    float: none;
+}
+.navlinks li{
+    justify-content: center;
+    text-align: center;
+    display: block;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+
+}
+
+
+@media (max-width: 580px) {
+    .form input{
+        width: 100%;
+    }
+    .top-block {
+        max-width: 630px;
+        margin-top: 50px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+    .top-block h2{
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .profile h2{
+        font-size: 35px;
+        line-height: 50px;
+        margin-bottom: 60px;
+        margin-top: 60px;
+    }
+    .profile{
+        text-align: center;
+    }
+    .profile p{
+        max-width: none;
+    }
+    .cards-item{
+        display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    }
+    .steps h2{
+        font-size: 35px;
+        line-height: 50px;
+        margin-bottom: 60px;
+        margin-top: 0px;
+    }
+    .business{
+        display: none;
+    }
+    .cards{
+        padding-top: 60px;
+    }
+    .cards h2{
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .marketing{
+        margin-bottom: 60px;
+    }
+    .marketing h2{
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .marketing-item{
+        margin-top: 70px;
+        text-align: center;
+    }
+    .marketing-item p{
+        display: block;
+        margin: 0 auto;
+    }
+    .marketing-item .none img{
+        display: none;
+    }
+    .package h2{
+        font-size: 35px;
+        line-height: 50px; 
+    }
+    .package{
+        padding-top: 0px;
+        margin-bottom: 60px;
+    }
+    .package-item{
+        margin-top: 60px;
+    }
+    .feedback h2{
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .feed-img {
+        margin-top: 60px;
+        padding-top: 0px;
+    }
+    .feedback{
+        padding-top: 0px;
+    }
+    footer{
+padding-top: 60px;
+text-align: center;
+    }
+
+
+
+}
+
+
+@media (max-width: 480px) {
+
+}
+
+@font-face {
+    font-family: 'URW Geometric';
+    src: url('URWGeometric-ExtraLightItalic.eot');
+    src: local('URW Geometric ExtLt Ita'), local('URWGeometric-ExtraLightItalic'),
+        url('URWGeometric-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('URWGeometric-ExtraLightItalic.woff2') format('woff2'),
+        url('URWGeometric-ExtraLightItalic.woff') format('woff'),
+        url('URWGeometric-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'URW Geometric';
+    src: url('URWGeometric-SemiBold.eot');
+    src: local('URW Geometric Semi Bold'), local('URWGeometric-SemiBold'),
+        url('URWGeometric-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('URWGeometric-SemiBold.woff2') format('woff2'),
+        url('URWGeometric-SemiBold.woff') format('woff'),
+        url('URWGeometric-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW Geometric';
+    src: url('URWGeometric-Italic.eot');
+    src: local('URW Geometric Italic'), local('URWGeometric-Italic'),
+        url('URWGeometric-Italic.eot?#iefix') format('embedded-opentype'),
+        url('URWGeometric-Italic.woff2') format('woff2'),
+        url('URWGeometric-Italic.woff') format('woff'),
+        url('URWGeometric-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'URW Geometric';
+    src: url('URWGeometric-Thin.eot');
+    src: local('URW Geometric Thin'), local('URWGeometric-Thin'),
+        url('URWGeometric-Thin.eot?#iefix') format('embedded-opentype'),
+        url('URWGeometric-Thin.woff2') format('woff2'),
+        url('URWGeometric-Thin.woff') format('woff'),
+        url('URWGeometric-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW Geometric';
+    src: url('URWGeometric-LightItalic.eot');
+    src: local('URW Geometric Light Italic'), local('URWGeometric-LightItalic'),
+        url('URWGeometric-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('URWGeometric-LightItalic.woff2') format('woff2'),
+        url('URWGeometric-LightItalic.woff') format('woff'),
+        url('URWGeometric-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'URW Geometric';
+    src: url('URWGeometric-BlackItalic.eot');
+    src: local('URW Geometric Black Italic'), local('URWGeometric-BlackItalic'),
+        url('URWGeometric-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('URWGeometric-BlackItalic.woff2') format('woff2'),
+        url('URWGeometric-BlackItalic.woff') format('woff'),
+        url('URWGeometric-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'URW Geometric';
+    src: url('URWGeometric-ExtraLight.eot');
+    src: local('URW Geometric Extra Light'), local('URWGeometric-ExtraLight'),
+        url('URWGeometric-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('URWGeometric-ExtraLight.woff2') format('woff2'),
+        url('URWGeometric-ExtraLight.woff') format('woff'),
+        url('URWGeometric-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW Geometric';
+    src: url('URWGeometric-HeavyItalic.eot');
+    src: local('URW Geometric Heavy Italic'), local('URWGeometric-HeavyItalic'),
+        url('URWGeometric-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('URWGeometric-HeavyItalic.woff2') format('woff2'),
+        url('URWGeometric-HeavyItalic.woff') format('woff'),
+        url('URWGeometric-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'URW Geometric';
+    src: url('URWGeometric-BoldItalic.eot');
+    src: local('URW Geometric Bold Italic'), local('URWGeometric-BoldItalic'),
+        url('URWGeometric-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('URWGeometric-BoldItalic.woff2') format('woff2'),
+        url('URWGeometric-BoldItalic.woff') format('woff'),
+        url('URWGeometric-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'URW Geometric';
+    src: url('URWGeometric-Black.eot');
+    src: local('URW Geometric Black'), local('URWGeometric-Black'),
+        url('URWGeometric-Black.eot?#iefix') format('embedded-opentype'),
+        url('URWGeometric-Black.woff2') format('woff2'),
+        url('URWGeometric-Black.woff') format('woff'),
+        url('URWGeometric-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW Geometric';
+    src: url('URWGeometric-Bold.eot');
+    src: local('URW Geometric Bold'), local('URWGeometric-Bold'),
+        url('URWGeometric-Bold.eot?#iefix') format('embedded-opentype'),
+        url('URWGeometric-Bold.woff2') format('woff2'),
+        url('URWGeometric-Bold.woff') format('woff'),
+        url('URWGeometric-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW Geometric';
+    src: url('URWGeometric-Light.eot');
+    src: local('URW Geometric Light'), local('URWGeometric-Light'),
+        url('URWGeometric-Light.eot?#iefix') format('embedded-opentype'),
+        url('URWGeometric-Light.woff2') format('woff2'),
+        url('URWGeometric-Light.woff') format('woff'),
+        url('URWGeometric-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW Geometric';
+    src: url('URWGeometric-ExtraBoldItalic.eot');
+    src: local('URW Geometric Extra Bold Italic'), local('URWGeometric-ExtraBoldItalic'),
+        url('URWGeometric-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('URWGeometric-ExtraBoldItalic.woff2') format('woff2'),
+        url('URWGeometric-ExtraBoldItalic.woff') format('woff'),
+        url('URWGeometric-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'URW Geometric';
+    src: url('URWGeometric-Heavy.eot');
+    src: local('URW Geometric Heavy'), local('URWGeometric-Heavy'),
+        url('URWGeometric-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('URWGeometric-Heavy.woff2') format('woff2'),
+        url('URWGeometric-Heavy.woff') format('woff'),
+        url('URWGeometric-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW Geometric';
+    src: url('URWGeometric-Regular.eot');
+    src: local('URW Geometric Regular'), local('URWGeometric-Regular'),
+        url('URWGeometric-Regular.eot?#iefix') format('embedded-opentype'),
+        url('URWGeometric-Regular.woff2') format('woff2'),
+        url('URWGeometric-Regular.woff') format('woff'),
+        url('URWGeometric-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW Geometric';
+    src: url('URWGeometric-Medium.eot');
+    src: local('URW Geometric Medium'), local('URWGeometric-Medium'),
+        url('URWGeometric-Medium.eot?#iefix') format('embedded-opentype'),
+        url('URWGeometric-Medium.woff2') format('woff2'),
+        url('URWGeometric-Medium.woff') format('woff'),
+        url('URWGeometric-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW Geometric';
+    src: url('URWGeometric-ExtraBold.eot');
+    src: local('URW Geometric Extra Bold'), local('URWGeometric-ExtraBold'),
+        url('URWGeometric-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('URWGeometric-ExtraBold.woff2') format('woff2'),
+        url('URWGeometric-ExtraBold.woff') format('woff'),
+        url('URWGeometric-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'URW Geometric';
+    src: url('URWGeometric-SemiBoldItalic.eot');
+    src: local('URW Geometric Semi Bold Italic'), local('URWGeometric-SemiBoldItalic'),
+        url('URWGeometric-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('URWGeometric-SemiBoldItalic.woff2') format('woff2'),
+        url('URWGeometric-SemiBoldItalic.woff') format('woff'),
+        url('URWGeometric-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'URW Geometric';
+    src: url('URWGeometric-MediumItalic.eot');
+    src: local('URW Geometric Medium Italic'), local('URWGeometric-MediumItalic'),
+        url('URWGeometric-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('URWGeometric-MediumItalic.woff2') format('woff2'),
+        url('URWGeometric-MediumItalic.woff') format('woff'),
+        url('URWGeometric-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'URW Geometric';
+    src: url('URWGeometric-ThinItalic.eot');
+    src: local('URW Geometric Thin Italic'), local('URWGeometric-ThinItalic'),
+        url('URWGeometric-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('URWGeometric-ThinItalic.woff2') format('woff2'),
+        url('URWGeometric-ThinItalic.woff') format('woff'),
+        url('URWGeometric-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
